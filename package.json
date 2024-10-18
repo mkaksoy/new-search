@@ -1,0 +1,53 @@
+{
+  "name": "new-search",
+  "version": "1.0.0",
+  "description": "An open source, next generation search engine 🔥",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mkaksoy/new-search.git"
+  },
+  "keywords": [
+    "search",
+    "search-engine",
+    "open-source"
+  ],
+  "author": "Mehmet Kaan AKSOY",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mkaksoy/new-search/issues"
+  },
+  "homepage": "https://github.com/mkaksoy/new-search#readme",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.2.0",
+    "@eslint/js": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "globals": "latest",
+    "jest": "latest",
+    "postcss": "latest",
+    "prettier": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "typescript-eslint": "latest"
+  }
+}
