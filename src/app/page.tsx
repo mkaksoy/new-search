@@ -28,7 +28,7 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
 } from "../components/Dropdown";
-import { Language, translations } from "../config/Languages";
+import { Language, translations } from "../config/languages";
 
 type BookmarkCardProps = {
   icon: LucideIcon;
