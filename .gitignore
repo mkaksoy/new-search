@@ -1,5 +1,7 @@
-node_modules
-coverage
-.next
-.vscode
+node_modules/
+coverage/
+.next/
+.vscode/
+.swc/
 .env
+.npmcheckrc

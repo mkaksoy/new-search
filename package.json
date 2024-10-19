@@ -1,6 +1,6 @@
 {
   "name": "new-search",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An open source, next generation search engine 🔥",
   "type": "module",
   "scripts": {
@@ -33,10 +33,9 @@
   "devDependencies": {
     "@eslint/compat": "latest",
     "@eslint/js": "latest",
+    "@radix-ui/react-dropdown-menu": "latest",
     "@radix-ui/react-slot": "latest",
-    "@testing-library/jest-dom": "^6.6.2",
-    "@testing-library/react": "^16.0.1",
-    "@types/jest": "^29.5.13",
+    "@types/jest": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "autoprefixer": "latest",
@@ -48,15 +47,15 @@
     "eslint-plugin-prettier": "latest",
     "eslint-plugin-react": "latest",
     "globals": "latest",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0",
+    "jest": "latest",
+    "jest-environment-jsdom": "latest",
     "lucide-react": "latest",
     "postcss": "latest",
     "prettier": "latest",
     "tailwind-merge": "latest",
     "tailwindcss": "latest",
     "tailwindcss-animate": "latest",
-    "ts-node": "^10.9.2",
+    "ts-node": "latest",
     "typescript": "latest",
     "typescript-eslint": "latest"
   }
