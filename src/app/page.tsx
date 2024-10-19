@@ -1,5 +1,6 @@
 "use client";
 
+import { useParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import {
   Search,
@@ -15,11 +16,9 @@ import {
   Moon,
   ChevronDown,
 } from "lucide-react";
+import classNames from "classnames";
 import { Input } from "@/src/components/Input";
 import { Button } from "@/src/components/Button";
-
-import classNames from "classnames";
-import React from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -42,6 +41,7 @@ const Home: React.FC = () => {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [theme, setTheme] = useState<Theme>("dark");
   const [language, setLanguage] = useState("eng");
+
   const translation = translations[language as Language];
 
   useEffect(() => {
@@ -245,10 +245,16 @@ const Home: React.FC = () => {
                   onValueChange={setLanguage}
                 >
                   <DropdownMenuRadioItem value="eng">
-                    English
+                    English (ENG)
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="tur">
-                    Türkçe
+                    Türkçe (TUR)
+                  </DropdownMenuRadioItem>
+                  <DropdownMenuRadioItem value="aze">
+                    Azərbaycan dili (AZE)
+                  </DropdownMenuRadioItem>
+                  <DropdownMenuRadioItem value="kor">
+                    한국어 (KOR)
                   </DropdownMenuRadioItem>
                 </DropdownMenuRadioGroup>
               </DropdownMenuContent>

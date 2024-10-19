@@ -1,0 +1,18 @@
+{
+  "toggleTheme": "테마 전환",
+  "searchPlaceholder": "웹 검색",
+  "explore": "탐색하기",
+  "calendar": "캘린더",
+  "library": "도서관",
+  "music": "음악",
+  "videos": "비디오",
+  "settings": "설정",
+  "privacyPolicy": "개인정보 처리방침",
+  "termsOfService": "서비스 약관",
+  "about": "정보",
+  "contact": "연락처",
+  "setLanguage": "언어 설정",
+  "availableLanguages": "사용 가능한 언어",
+  "openSettings": "설정 열기",
+  "closeSettings": "설정 닫기"
+}

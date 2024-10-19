@@ -141,3 +141,11 @@
   font-style: italic;
   font-display: swap;
 }
+
+/* For Korean Language Support */
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("../assets/fonts/NotoSansKR-VariableFont_wght.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,7 +1,9 @@
 import eng from "./lang/eng.json";
 import tur from "./lang/tur.json";
+import aze from "./lang/aze.json";
+import kor from "./lang/kor.json";
 
-export type Language = "eng" | "tur";
+export type Language = "eng" | "tur" | "aze" | "kor";
 
 export const translations: Record<
   Language,
@@ -26,4 +28,6 @@ export const translations: Record<
 > = {
   eng,
   tur,
+  aze,
+  kor,
 };
